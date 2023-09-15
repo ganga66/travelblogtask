@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+
+}
+#nav1{
+    color:white
+}
+#navbar1 img{
+    margin-right: 70px;
+    align-items: center;
+    align-items: left;
+}
+#navbar{
+    box-shadow: 1px 4px 4px 1px black;
+    border-bottom: 5px yellow;
+    position: fixed;
+    top: 0px;
+
+}
+#navbar{
+    box-shadow: 1px 4px 1px 1px black;
+    position: fixed;
+    top: 0px;
+
+}
+nav{
+    text-decoration: none;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    border-top: 5px yellow;
+}
+nav ul li a:hover{
+    color: rgb(202, 202, 48);
+
+}
+
+#home::before{
+        content: '';
+        position: absolute;
+        background-image: url('https://www.mediavine.com/wp-content/uploads/2019/10/Expert-Vagabond-II.jpg.webp');
+        height: 630px;
+        width: 100%;
+        background-size: cover;
+        background-position: right;
+        z-index: -1;
+        opacity: 0.9;
+}
+.main{
+    border: 1px ridge rgb(82, 78, 82);
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 3%;
+    z-index: -1;
+    box-shadow: 3px 4px 6px 5px black;
+    color: black;
+    color: white;
+    
+}
+.row  h2{
+    color: rgb(242, 156, 9);
+}
+#body1{
+    text-align: center;
+    border: none;
+} 
+h1:hover{
+    color: brown;
+    background-color: aliceblue;
+    padding: 5px;
+}
+h2:hover{
+    color: brown;
+}
+h3:hover{
+    color: brown;
+}
+img:hover{
+    border: 3px 3px 3px 3px solid;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+a{
+    text-decoration: none;
+}
+input{
+    padding: 5px;
+}
